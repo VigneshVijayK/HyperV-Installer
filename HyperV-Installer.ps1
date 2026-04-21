@@ -41,7 +41,7 @@ function Banner {
     Write-Host "  ╠══════════════════════════════════════════════════════════════╣" -ForegroundColor Cyan
     Write-Host "  ║  Developer  : Vignesh Vijay K                                ║" -ForegroundColor DarkCyan
     Write-Host "  ║  GitHub     : https://github.com/VigneshVijayK               ║" -ForegroundColor DarkCyan
-    Write-Host "  ║  Version    : 3.0.0                                          ║" -ForegroundColor DarkCyan
+    Write-Host "  ║  Version    : $SCRIPT_VERSION                                          ║" -ForegroundColor DarkCyan
     Write-Host "  ╚══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
     Write-Host "  Log: $LOG_PATH" -ForegroundColor DarkGray
     Write-Host ""
