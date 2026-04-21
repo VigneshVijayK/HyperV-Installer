@@ -39,9 +39,9 @@ function Banner {
     Write-Host "  ╔══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
     Write-Host "  ║        HYPER-V ENABLER FOR WINDOWS HOME EDITION              ║" -ForegroundColor Cyan
     Write-Host "  ╠══════════════════════════════════════════════════════════════╣" -ForegroundColor Cyan
-    Write-Host "  ║  Developer  : $SCRIPT_AUTHOR                                 ║" -ForegroundColor DarkCyan
-    Write-Host "  ║  GitHub     : $SCRIPT_GITHUB                                 ║" -ForegroundColor DarkCyan
-    Write-Host "  ║  Version    : $SCRIPT_VERSION                                ║" -ForegroundColor DarkCyan
+    Write-Host "  ║  Developer  : $SCRIPT_AUTHOR                                ║" -ForegroundColor DarkCyan
+    Write-Host "  ║  GitHub     : $SCRIPT_GITHUB                    ║" -ForegroundColor DarkCyan
+    Write-Host "  ║  Version    : $SCRIPT_VERSION                                          ║" -ForegroundColor DarkCyan
     Write-Host "  ╚══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
     Write-Host "  Log: $LOG_PATH" -ForegroundColor DarkGray
     Write-Host ""
